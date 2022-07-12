@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.accent-checkbox-red {
+    accent-color: red;
+}
+
+.container {
+    height: 100vh;
+    background-color: #1d2a3a;
+    display: grid;
+    place-items: center;
+}
+
+.container .title {
+    margin: 10px 0px;
+    background-color: aquamarine;
+}
+
+.container .text-and-image {
+    font-size: 10px;
+    line-height: 20px;
+    background-image: url("./images/samantha.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.1);
+}
